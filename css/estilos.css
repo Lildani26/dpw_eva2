@@ -1,7 +1,9 @@
-/* ==============================
-   ESTILOS GENERALES
+/* =========================================
    PROYECTO REFUERZO
-   ============================== */
+   ESTILOS CSS
+   ========================================= */
+
+/* Configuración general */
 
 * {
     margin: 0;
@@ -12,14 +14,15 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f4f7fb;
-    color: #333;
+    color: #333333;
     line-height: 1.6;
     min-height: 100vh;
 }
 
-/* ==============================
+
+/* =========================================
    ENCABEZADO
-   ============================== */
+   ========================================= */
 
 header {
     background-color: #1f4e79;
@@ -31,45 +34,61 @@ header {
 
 header h1 {
     font-size: 2.5rem;
-    margin-bottom: 5px;
 }
 
-/* ==============================
+
+/* =========================================
+   CONTENIDO PRINCIPAL
+   ========================================= */
+
+main {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+
+/* =========================================
    TITULOS
-   ============================== */
-
-h1 {
-    color: white;
-}
+   ========================================= */
 
 h2 {
     color: #1f4e79;
     text-align: center;
-    margin: 30px 20px 15px;
+    margin-bottom: 15px;
     font-size: 2rem;
 }
 
 h3 {
     color: #1f4e79;
-    margin: 25px 20px 10px;
+    margin-bottom: 15px;
     font-size: 1.5rem;
 }
 
-/* ==============================
+
+/* =========================================
    PARRAFOS
-   ============================== */
+   ========================================= */
 
 p {
     max-width: 900px;
     margin: 0 auto 20px;
-    padding: 0 20px;
     font-size: 1.05rem;
     text-align: justify;
 }
 
-/* ==============================
+
+/* =========================================
    ENLACES
-   ============================== */
+   ========================================= */
 
 a {
     display: inline-block;
@@ -77,7 +96,6 @@ a {
     color: white;
     text-decoration: none;
     padding: 12px 20px;
-    margin: 10px 20px;
     border-radius: 6px;
     transition: 0.3s;
 }
@@ -87,9 +105,10 @@ a:hover {
     transform: translateY(-2px);
 }
 
-/* ==============================
+
+/* =========================================
    BARRA DE NAVEGACION
-   ============================== */
+   ========================================= */
 
 nav {
     background-color: #163a5c;
@@ -114,49 +133,32 @@ nav a {
     padding: 10px 18px;
     background-color: transparent;
     color: white;
-    border-radius: 5px;
 }
 
 nav a:hover {
     background-color: #1f4e79;
 }
 
-/* ==============================
-   CONTENIDO
-   ============================== */
 
-main {
-    max-width: 1100px;
-    margin: 30px auto;
-    padding: 20px;
-}
-
-section {
-    background-color: white;
-    margin: 20px 0;
-    padding: 25px;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
-}
-
-/* ==============================
+/* =========================================
    LISTAS
-   ============================== */
+   ========================================= */
 
 ul,
 ol {
     max-width: 900px;
     margin: 15px auto;
-    padding-left: 45px;
+    padding-left: 40px;
 }
 
 li {
     margin-bottom: 8px;
 }
 
-/* ==============================
+
+/* =========================================
    IMAGENES
-   ============================== */
+   ========================================= */
 
 img {
     max-width: 100%;
@@ -167,9 +169,10 @@ img {
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* ==============================
+
+/* =========================================
    TABLAS
-   ============================== */
+   ========================================= */
 
 table {
     width: 90%;
@@ -182,7 +185,7 @@ table {
 
 th,
 td {
-    border: 1px solid #ccc;
+    border: 1px solid #cccccc;
     padding: 12px;
     text-align: center;
 }
@@ -196,9 +199,10 @@ tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
-/* ==============================
+
+/* =========================================
    BOTONES
-   ============================== */
+   ========================================= */
 
 button {
     background-color: #1f4e79;
@@ -216,9 +220,10 @@ button:hover {
     transform: translateY(-2px);
 }
 
-/* ==============================
+
+/* =========================================
    FORMULARIOS
-   ============================== */
+   ========================================= */
 
 form {
     max-width: 700px;
@@ -241,7 +246,7 @@ select {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #bbb;
+    border: 1px solid #bbbbbb;
     border-radius: 5px;
     font-size: 1rem;
 }
@@ -251,9 +256,10 @@ textarea {
     resize: vertical;
 }
 
-/* ==============================
+
+/* =========================================
    PIE DE PAGINA
-   ============================== */
+   ========================================= */
 
 footer {
     background-color: #1f4e79;
@@ -270,9 +276,10 @@ footer p {
     font-size: 0.95rem;
 }
 
-/* ==============================
+
+/* =========================================
    DISEÑO RESPONSIVO
-   ============================== */
+   ========================================= */
 
 @media (max-width: 768px) {
 
@@ -317,9 +324,10 @@ footer p {
     }
 }
 
-/* ==============================
+
+/* =========================================
    PANTALLAS PEQUEÑAS
-   ============================== */
+   ========================================= */
 
 @media (max-width: 480px) {
 
