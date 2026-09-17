@@ -1,0 +1,50 @@
+body{
+font-family: Georgia, 'Times New Roman', Times, serif;
+background-color: rgb(189, 230, 230);
+font: size 1em;
+}
+
+.Telefono{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+ 
+.T-imagen {
+    width:20px;
+    height:auto;
+}
+
+.Correo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 0px;
+}
+.C-imagen{
+    width: 20px;
+    height: auto;
+ margin-top: 0px;
+}
+
+.Horario{
+    display: flex;
+    align-items:self-start;
+    gap: 15px;
+    margin-top: 0px;
+}
+
+.H-imagen{
+    width: 20px;
+    height: auto;
+    margin-top: 15px;
+}
+
+h1{
+    text-shadow: 2px 2px 4px rgb(121, 116, 116);
+}
+h2{
+     text-shadow: 2px 2px 4px rgb(121, 116, 116);
+}
+
+

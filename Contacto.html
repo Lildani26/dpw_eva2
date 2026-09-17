@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto</title>
+    <link rel="stylesheet" href="Estilo.css">
+</head>
+
+<body>
+
+    <h1>Contacto</h1>
+
+<p>¿Tines alguna duda? Contactanos.</p>
+
+<h2>Informacion de Contacto</h2>
+
+<div class="InformacionContacto">
+   <div class="Telefono">
+<img src="Imagenes/Telefono.png" alt="Telefono" class="T-imagen">
+<p>Telefono:7638-2230</p>
+   </div>
+
+<div class="Correo">
+<img src="Imagenes/Correo.png" alt="Correo" class="C-imagen">
+<p>Correo: contacto@aprendeutec.com</p>
+</div>
+
+<div class="Horario">
+<img src="Imagenes/Horario.png" alt="Horario" class="H-imagen">
+
+<div>
+<p>Horarios de atencion: </p>
+ <ul> 
+<li>Lunes a Viernes</li>
+<li>9:00 a.m.- 5:00 p.m.</li>
+<li>Sabados y domingos</li>
+<li>1:00 p.m.- 6:00 p.m.</li>
+ </ul>
+</div>
+
+</div>
+
+<h2>¿Necesitas ayuda?</h2>
+
+<form action="/Enviar" method="post">
+
+<div>
+<label for="Nombre"> Nombre:</label>
+<input type="text" id="Nombre" name="Nombre" required>
+</div>
+
+<div>
+<label for="Correo">Correo:</label>
+<input type="email" id="Correo" name="Correo" required>
+</div>
+
+<div>
+<label for="Telefono">Telefono:</label>
+<input type="tel" id="Telefono" name="Telefono" required>
+</div>
+
+<div>
+<label for="Motivo de contacto">Seleccionar</label>
+<select id="Motivo de contacto">
+   <option value="1">Tengo una duda sobre un tema</option> 
+   <option value="2">Tengo problemas con la plataforma</option>
+   <option value="3">Quiero reportar un error</option>
+   <option value="4">Quiero realizar una sugerencia</option>
+   <option value="5">Otro:</option>
+</select>
+</div>
+
+<div>
+<label for="Mensaje">Mensaje:</label>
+<textarea id="Mensaje" name="Mensaje" rows="10" cols="30" placeholder="Escribe tu mensaje aqui"></textarea>
+</div>
+
+<button type="submit">Enviar</button>
+
+</form>
+</body>
+</html>
