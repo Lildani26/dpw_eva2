@@ -1,13 +1,17 @@
 body{
 font-family: Georgia, 'Times New Roman', Times, serif;
-background-color: rgb(189, 230, 230);
+background-color: rgb(255, 254, 254);
 font: size 1em;
+color: rgb(9, 8, 8);
+margin: 10;
+padding: 20px 20px;
 }
 
 .Telefono{
     display: flex;
     align-items: center;
     gap: 15px;
+  
 }
  
 .T-imagen {
@@ -32,19 +36,106 @@ font: size 1em;
     align-items:self-start;
     gap: 15px;
     margin-top: 0px;
+    
 }
 
 .H-imagen{
     width: 20px;
     height: auto;
-    margin-top: 15px;
+   
+    
+    
 }
+
+ul {
+    background-color: rgb(255, 252, 252);
+    color: rgb(12, 13, 13);
+    text-shadow: rgb(249, 242, 242);
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+
+
+p {
+   background-color:  rgb(96, 5, 5);
+   color: rgb(252, 248, 248);
+   text-shadow: rgb(248, 246, 246);
+   border-radius: 5px;
+text-align: center;
+}
+
 
 h1{
-    text-shadow: 2px 2px 4px rgb(121, 116, 116);
+text-shadow: 2px 2px 4px rgb(5, 5, 5);
+text-align: center;
+background-color: rgb(96, 5, 5 );
+color: rgb(249, 249, 249);
+border-radius: 5px;
+ font-size: 40px;
 }
+
 h2{
-     text-shadow: 2px 2px 4px rgb(121, 116, 116);
+ text-shadow: 2px 2px 4px rgb(250, 253, 253); 
+text-align: left;
+background-color: rgb(255, 254, 254);
+color: rgb(10, 10, 10);
+border-radius: 5px;
+ font-size: 30px;
 }
 
+h3{
+ text-shadow: 2px 2px 4px rgb(2, 2, 2);
+text-align:center;
+background-color: rgb(96, 5, 5);
+color: rgb(247, 244, 244);
+border-radius: 5px;
+ font-size: 20px;
+}
 
+button{
+background-color: rgb(252, 249, 249);
+color: rgb(0, 0, 0);
+border-radius: 8px;
+border: none;
+cursor: pointer;
+transform: scale(1.05);
+transition: background-color 0.2s;
+flex-direction: column;
+padding: 5px;
+text-shadow: rgb(226, 223, 223);
+}
+
+form{
+    text-align: center;
+    background-color: rgb(96, 5, 5);
+    color: rgb(255, 255, 255);
+    margin-bottom: 40px;
+    padding: 50px 0px 5px 50px;
+   font-size: 20px;
+    border-radius: 10px;
+    text-shadow: black;
+}
+
+input,select,textarea {
+    margin-bottom: 15px;
+}
+
+button:hover {
+    background-color: rgb(193, 180, 180);
+}
+
+.T-imagen {
+    background-color:  rgb(235, 173, 173);
+    border-radius: 5px;
+}
+
+.C-imagen {
+     background-color:  rgb(235, 173, 173);
+    border-radius: 5px;
+}
+
+.H-imagen {
+     background-color: rgb(235, 173, 173) ;
+    border-radius: 5px;
+}
